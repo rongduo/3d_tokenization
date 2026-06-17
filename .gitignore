@@ -1,0 +1,52 @@
+# ===== Large outputs / artifacts (NOT source code) =====
+results/
+results_jl/
+results_eval/
+checkpoints/
+ckpt*/
+*.pth
+*.ckpt
+
+# ===== Logs =====
+logs/
+*.log
+
+# ===== Data / tensors / meshes =====
+*.pt
+*.npy
+*.npz
+*.h5
+*.hdf5
+*.ply
+*.pcd
+*.glb
+*.gltf
+*.obj
+
+# ===== Archives =====
+*.tar
+*.tar.gz
+*.tgz
+*.zip
+
+# ===== Images / media artifacts =====
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.mp4
+
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+.pytest_cache/
+
+# ===== Env / editor =====
+.venv/
+venv/
+.env
+.DS_Store
+.idea/
+.vscode/

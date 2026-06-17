@@ -1,0 +1,68 @@
+{
+  "gt": "parts.pt",
+  "n_sample": 50,
+  "seed": 42,
+  "methods": {
+    "k8": {
+      "count": 50,
+      "n_points": 5000.0,
+      "n_tokens": 100.08,
+      "n_gt_parts": 7.9,
+      "token_mixed_rate": 0.21526146189618037,
+      "point_mixed_rate": 0.7534759999999998,
+      "mean_token_purity": 0.9390820237386641,
+      "mean_pure_token_size": 17.738584423196816,
+      "mean_mixed_token_size": 454.88083865110787,
+      "asa": 0.7659480000000001,
+      "ari": 0.23850159592489614,
+      "mean_part_iou": 0.3117394684856043,
+      "boundary_recall": 0.22200262217984168
+    },
+    "k15": {
+      "count": 50,
+      "n_points": 5000.0,
+      "n_tokens": 35.48,
+      "n_gt_parts": 7.9,
+      "token_mixed_rate": 0.29294074705202305,
+      "point_mixed_rate": 0.913692,
+      "mean_token_purity": 0.9169166613290924,
+      "mean_pure_token_size": 13.640566345480552,
+      "mean_mixed_token_size": 1478.0879765702132,
+      "asa": 0.633856,
+      "ari": 0.1641014988534711,
+      "mean_part_iou": 0.28717945752151963,
+      "boundary_recall": 0.13085964214271106
+    },
+    "cap200": {
+      "count": 50,
+      "n_points": 5000.0,
+      "n_tokens": 79.56,
+      "n_gt_parts": 7.9,
+      "token_mixed_rate": 0.29636364902036993,
+      "point_mixed_rate": 0.596816,
+      "mean_token_purity": 0.9148401100824343,
+      "mean_pure_token_size": 43.96797991735326,
+      "mean_mixed_token_size": 151.7121978496287,
+      "asa": 0.8206679999999998,
+      "ari": 0.07720419591696219,
+      "mean_part_iou": 0.23019565075215642,
+      "boundary_recall": 0.23040763719137583
+    },
+    "partfield_k20": {
+      "count": 50,
+      "n_points": 5000.0,
+      "n_tokens": 20.0,
+      "n_gt_parts": 7.9,
+      "token_mixed_rate": 0.21099999999999997,
+      "point_mixed_rate": 0.9156320000000001,
+      "mean_token_purity": 0.9327095955524355,
+      "mean_pure_token_size": 25.704032681628654,
+      "mean_mixed_token_size": 1453.2066746031749,
+      "asa": 0.6617439999999999,
+      "ari": 0.21358632573001357,
+      "mean_part_iou": 0.30224723627995087,
+      "boundary_recall": 0.16608018036440228
+    }
+  },
+  "note": "k8/k15/cap200: points+normals; partfield_k20: PartField+cluster on points"
+}

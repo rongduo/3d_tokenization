@@ -1,0 +1,71 @@
+{
+  "models": {
+    "parts.pt (GT)": "find3d_.../bbox (parts.pt train)",
+    "k8": "parts_superpoint_k8.pt",
+    "k15": "parts_superpoint.pt",
+    "cap200": "parts_superpoint_k8_cap200.pt",
+    "partfield": "parts_partfield_avgcos_conn_k20.pt"
+  },
+  "data": {
+    "coarse": {
+      "feats (--part_query --canonical)": {
+        "parts.pt (GT)": 0.6163,
+        "k8": 0.4409,
+        "k15": 0.4478,
+        "cap200": 0.4454,
+        "partfield": 0.3863
+      },
+      "partcates (--canonical)": {
+        "parts.pt (GT)": 0.5236,
+        "k8": 0.387,
+        "k15": 0.397,
+        "cap200": 0.3906,
+        "partfield": 0.333
+      },
+      "roted (--part_query)": {
+        "parts.pt (GT)": 0.6705,
+        "k8": 0.4661,
+        "k15": 0.4792,
+        "cap200": 0.4721,
+        "partfield": 0.4165
+      },
+      "partcates+roted (default)": {
+        "parts.pt (GT)": 0.5583,
+        "k8": 0.4122,
+        "k15": 0.4254,
+        "cap200": 0.4216,
+        "partfield": 0.3572
+      }
+    },
+    "fine": {
+      "feats (--part_query --canonical)": {
+        "parts.pt (GT)": 0.5162,
+        "k8": 0.2576,
+        "k15": 0.2671,
+        "cap200": 0.2576,
+        "partfield": 0.1862
+      },
+      "partcates (--canonical)": {
+        "parts.pt (GT)": 0.3586,
+        "k8": 0.1952,
+        "k15": 0.1933,
+        "cap200": 0.1919,
+        "partfield": 0.1476
+      },
+      "roted (--part_query)": {
+        "parts.pt (GT)": 0.5984,
+        "k8": 0.2923,
+        "k15": 0.3051,
+        "cap200": 0.2931,
+        "partfield": 0.2171
+      },
+      "partcates+roted (default)": {
+        "parts.pt (GT)": 0.4043,
+        "k8": 0.2163,
+        "k15": 0.2158,
+        "cap200": 0.2165,
+        "partfield": 0.1655
+      }
+    }
+  }
+}
