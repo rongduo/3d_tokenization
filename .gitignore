@@ -50,3 +50,7 @@ venv/
 .DS_Store
 .idea/
 .vscode/
+
+# ===== Eval output variants + per-step logs (added 2026-07-09) =====
+results_eval*/
+*_logs/
